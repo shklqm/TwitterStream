@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:fillViewport="true" >
+
+     <LinearLayout
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:orientation="vertical" >
+
+         <TextView 
+			android:id="@+id/intro2"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textColor="#006894"
+			android:textSize="18sp"
+			android:text = "@string/intro2" />
+	   
+		<TextView
+			android:id="@+id/intro3"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textColor="#003994"
+			android:textSize="18sp"
+			android:text = "@string/intro3" />
+		
+		<TextView
+			android:id="@+id/intro4"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textColor="#006894"
+			android:textSize="18sp"
+			android:text = "@string/intro4" />
+		
+		<TextView
+			android:id="@+id/intro5"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textColor="#003994"
+			android:textSize="18sp"
+			android:text = "@string/intro5" />
+		
+		<TextView
+			android:id="@+id/intro6"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textColor="#006894"
+			android:textSize="18sp"
+			android:text = "@string/intro6" />
+
+		<TextView
+			android:id="@+id/about2"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textSize="18sp" 
+			android:textColor="#003994"
+			android:text="@string/about2"/>
+
+		<TextView
+		    android:id="@+id/about3"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:textSize="18sp"
+		    android:text="@string/about3"
+		    android:textColor="#006894" />
+
+		<TextView
+			android:id="@+id/about4"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:textSize="18sp"
+			android:textColor="#003994"
+			android:text="@string/about4"/>
+
+		<TextView
+			android:id="@+id/about5"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:textSize="18sp"
+			android:textColor="#006894"
+			android:text="@string/about5"/>
+		<TextView
+			android:id="@+id/about6"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textSize="18sp" 
+			android:textColor="#003994" 
+			android:text="@string/about6"/>
+
+           <Button
+	        android:id="@+id/dialogButtonOKabout"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/ok" />
+     </LinearLayout>
+</ScrollView>

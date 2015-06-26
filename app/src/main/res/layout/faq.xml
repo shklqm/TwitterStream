@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:fillViewport="true" >
+
+          <LinearLayout
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical" >
+
+               <TextView 
+			 android:id="@+id/firstquestion"   
+			 android:layout_width="wrap_content" 
+			 android:layout_height="wrap_content"  
+			 android:text="@string/firstquestion"
+			 android:textSize="18sp"
+			 android:textColor="#940000"   
+			 />
+
+			<TextView 
+			 android:id="@+id/firstanswer1"
+			 android:layout_width="wrap_content" 
+			 android:layout_height="wrap_content"  
+			 android:text="@string/firstanswer1"
+			 android:textSize="16sp"
+			 android:textColor="#044F4F"   
+			 />
+
+			<TextView 
+			 android:id="@+id/firsttip1"
+			 android:layout_width="wrap_content" 
+			 android:layout_height="wrap_content"  
+			 android:text="@string/firsttip1"
+			 android:textSize="15sp"
+			 android:textColor="#040A4F"   
+			 />
+
+			<TextView 
+			 android:id="@+id/firstanswer2"
+			 android:layout_width="wrap_content" 
+			 android:layout_height="wrap_content"  
+			 android:text="@string/firstanswer2"
+			 android:textSize="16sp"
+			 android:textColor="#044F4F"   
+			 />
+
+			<TextView 
+			 android:id="@+id/firsttip2" 
+			 android:layout_width="wrap_content" 
+			 android:layout_height="wrap_content"  
+			 android:text="@string/firsttip2"   
+			 android:textSize="15sp"
+			 android:textColor="#040A4F"
+			 />
+
+			<TextView 
+			 android:id="@+id/secondquestion"
+			 android:layout_width="wrap_content" 
+			 android:layout_height="wrap_content"  
+			 android:text="@string/secondquestion"  
+			 android:textSize="18sp"
+			 android:textColor="#940000" 
+			 />
+
+			<TextView 
+			 android:id="@+id/secondanswer1"   
+			 android:layout_width="wrap_content" 
+			 android:layout_height="wrap_content"  
+			 android:text="@string/secondanswer1" 
+			 android:textSize="16sp"
+			 android:textColor="#044F4F"  
+			 />
+
+			<TextView 
+			 android:id="@+id/secondtip1"
+			 android:layout_width="wrap_content" 
+			 android:layout_height="wrap_content"  
+			 android:text="@string/secondtip1"  
+			 android:textSize="15sp"
+			 android:textColor="#040A4F" 
+			 />
+
+			<TextView 
+			 android:id="@+id/secondanswer2" 
+			 android:layout_width="wrap_content" 
+			 android:layout_height="wrap_content"  
+			 android:text="@string/secondanswer2"
+			 android:textSize="16sp"
+			 android:textColor="#044F4F"   
+			 />
+
+			<TextView 
+			 android:id="@+id/secondtip2"
+			 android:layout_width="wrap_content" 
+			 android:layout_height="wrap_content"  
+			 android:text="@string/secondtip2"
+			 android:textSize="15sp"
+			 android:textColor="#040A4F"   
+			 />
+
+			<TextView 
+			 android:id="@+id/thirdquestion"   
+			 android:layout_width="wrap_content" 
+			 android:layout_height="wrap_content"  
+			 android:text="@string/thirdquestion"
+			 android:textSize="18sp"
+			 android:textColor="#940000"   
+			 />
+
+			<TextView 
+			 android:id="@+id/thirdanswer1"   
+			 android:layout_width="wrap_content" 
+			 android:layout_height="wrap_content"  
+			 android:text="@string/thirdanswer1"
+			 android:textSize="16sp"
+			 android:textColor="#044F4F"   
+			 />
+
+			<TextView 
+			 android:id="@+id/thirdtip1"   
+			 android:layout_width="wrap_content" 
+			 android:layout_height="wrap_content"  
+			 android:text="@string/thirdtip1"
+			 android:textSize="15sp"
+			 android:textColor="#040A4F"   
+			 />
+			
+			<TextView 
+			 android:id="@+id/tips"
+			 android:layout_width="wrap_content" 
+			 android:layout_height="wrap_content"  
+			 android:text="@string/tips"
+			 android:textSize="18sp"
+			 android:textColor="#940000"   
+			 />
+			
+			<TextView 
+			 android:id="@+id/firstanswer3"
+			 android:layout_width="wrap_content" 
+			 android:layout_height="wrap_content"  
+			 android:text="@string/tip1"
+			 android:textSize="16sp"
+			 android:textColor="#044F4F"   
+			 />
+
+			<TextView 
+			 android:id="@+id/firsttip3" 
+			 android:layout_width="wrap_content" 
+			 android:layout_height="wrap_content"  
+			 android:text="@string/tip2"
+			 android:textSize="15sp"
+			 android:textColor="#040A4F"   
+			 />
+
+           <Button
+	        android:id="@+id/dialogButtonOKfaq"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/ok" />
+        </LinearLayout>
+</ScrollView>

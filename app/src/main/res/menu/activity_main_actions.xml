@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <!-- Search Widget -->
+    <item android:id="@+id/action_search"
+          android:icon="@drawable/ic_action_search"
+          android:title="@string/action_search"
+          android:showAsAction="ifRoom"
+          android:actionViewClass="android.widget.SearchView"/>
+    
+     <!-- Stream tags -->
+    <item android:id="@+id/stream_tag"
+          android:title="@string/stream_tag"
+          android:showAsAction="never" />
+	<!-- SpeedUpStream tags -->
+    <item android:id="@+id/speedup_tag"
+          android:title="@string/speedup_tag"
+          android:showAsAction="never" />
+    <!-- SlowDownStream tags -->
+    <item android:id="@+id/slowdown_tag"
+          android:title="@string/slowdown_tag"
+          android:showAsAction="never" /> 
+     <!-- MyKeyword tags -->
+    <item android:id="@+id/mykeyword_tag"
+          android:title="@string/mykeyword_tag"
+          android:showAsAction="never" />         
+    <!-- Questions tags -->
+    <item android:id="@+id/questions_tag"
+          android:title="@string/question_tag"
+          android:showAsAction="never" />
+    <!-- About tags -->
+    <item android:id="@+id/about_tag"
+          android:title="@string/about_tag"
+          android:showAsAction="never" />
+    <!-- log out -->
+    <item android:id="@+id/log_out_from_twitter"
+          android:title="@string/log_out"
+          android:showAsAction="never" />
+    
+</menu>
